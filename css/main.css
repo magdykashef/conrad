@@ -1,0 +1,167 @@
+/*some reseting*/
+*,*:after,*:before{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f50;
+    font-family: candara;
+    height: 2000px;
+}
+ul,li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+/*************conrad section******************/
+section.conrad{
+    width: 100%;
+    height: 600px;
+    background: url(../images/slide-1-fs.jpg);
+    background-size: cover;
+}
+.container{
+    width: 1100px;
+    margin:auto;
+    color:white;
+}
+section.conrad header{
+    padding-top:3%;
+
+}
+section.conrad div.logo{
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+section.conrad  nav{
+    width: 50%;
+    float: right;
+}
+section.conrad  nav ul li{
+    display: inline-block;
+    padding-top: 5px;
+}
+section.conrad  nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+section.conrad div.clear{
+    clear: both;
+}
+section.conrad div.digital{
+    margin-top: 15%;
+}
+section.conrad div.digital p span{
+    transition: all 0.5s ease-in-out;
+    display: inline-block;
+    width: 20px;
+}
+section.conrad div.digital p:first-child{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+section.conrad div.digital p:last-child{
+    width:15%;
+}
+section.conrad div.digital p:last-child:hover span{
+    transform: rotate(360deg);
+}
+/***************************about section***********************/
+section.about{
+    width:100%;
+    height: 450px;
+    padding: 70px 0 70px 0 ;
+    background: white;      
+}
+section.about div.creative ,
+section.about div.awseome,
+section.about div.office{
+    width:30%;
+    float: left;
+    margin-left: 3%;
+    font-size: 15px;
+}
+section.about div.creative{
+    margin:0px;
+}
+section.about div.creative h2{
+    color:#444;
+    font-size: 2.5em;
+}
+section.about div.creative p{
+    color:#111;
+    margin-top: 5%;
+    line-height: 1.5em;
+}
+section.about div.creative p:nth-of-type(1) span{
+    font-weight: bold;
+}
+section.about div.creative p:nth-of-type(2){
+    color:#666;
+}
+section.about div.creative a{
+    text-decoration: none;
+    color:#555;
+}
+section.about div.creative a:hover{
+    color:#111;
+}
+section.about div.awseome img,
+section.about div.office img{
+    width:100%;
+}
+section.about div.awseome h3,
+section.about div.office h3{
+    margin-top: 3%;
+    color:#444;
+}
+section.about div.awseome p,
+section.about div.office p{
+    margin-top: 5%;
+    color:#555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
