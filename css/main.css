@@ -119,9 +119,35 @@ section.about div.creative a{
 section.about div.creative a:hover{
     color:#111;
 }
-section.about div.awseome img,
-section.about div.office img{
+section.about div.awseome > div,
+section.about div.office > div{
+    overflow: hidden;
+    position: relative;
+}
+section.about div.awseome > div  div.overlay ,
+section.about div.office > div div.overlay{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+section.about div.awseome > div img,
+section.about div.office > div img{
     width:100%;
+    transition: all 0.5s ease-in-out;
+}
+section.about div.awseome > div:hover div.overlay ,
+section.about div.office div:hover div.overlay
+{
+    display: block;
+}
+section.about div.awseome > div:hover img,
+section.about div.office > div:hover img{
+    transform:scale(1.3);
 }
 section.about div.awseome h3,
 section.about div.office h3{
@@ -133,8 +159,6 @@ section.about div.office p{
     margin-top: 5%;
     color:#555;
 }
-
-
 
 
 
