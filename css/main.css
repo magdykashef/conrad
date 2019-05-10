@@ -22,6 +22,7 @@ section.conrad{
     height: 600px;
     background: url(../images/slide-1-fs.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 .container{
     width: 1100px;
@@ -82,7 +83,7 @@ section.conrad div.digital p:last-child:hover span{
 /***************************about section***********************/
 section.about{
     width:100%;
-    height: 450px;
+    height: 460px;
     padding: 70px 0 70px 0 ;
     background: white;      
 }
@@ -159,13 +160,50 @@ section.about div.office p{
     margin-top: 5%;
     color:#555;
 }
-
-
-
-
-
-
-
+/****************************Folio**************************************/
+section.folio{
+    width: 100%;
+    background: url(../images/slide-7-fw.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    text-align: center;
+    line-height: 25px;
+    color:white;
+}
+section.folio div.folio_part
+{
+    padding-top: 10%;
+}
+section.folio .container h2{
+    font-family: sans-serif;
+    padding-bottom: 2%;
+    font-weight: normal;
+}
+section.folio .container .folio_part  p{
+    font-size: 15px;
+    font-weight: bold;
+}
+section.folio .container .folio_part p.two{
+    display: none;
+}
+section.folio .container .folio_part span{
+    font-style: italic;
+    font-size:14px; 
+}
+section.folio .container .folio_part button{
+    width: 200px;
+    padding: 15px;
+    background: none;
+    border:2px solid white;
+    color: white;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+}
+section.folio .container .folio_part button:hover{
+    border:2px solid black;
+    color: white;
+    background: black;
+}
 
 
 
