@@ -6,6 +6,18 @@ var f=document.getElementById("first").addEventListener("click", function(){
     document.getElementById("one").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua";
   });
 
-  
+
+  $(window).scroll(function(){
+    var scroll=$(this).scrollTop();
+    if (scroll>400)
+    {
+      $(".header").slideDown();
+    }
+    else
+    {
+      $(".header").slideUp();
+    }  
+    }
+  )
 
   

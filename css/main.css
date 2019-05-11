@@ -31,9 +31,21 @@ section.conrad{
 }
 section.conrad header{
     padding-top:3%;
-
 }
-section.conrad div.logo{
+.header{
+    width: 100%;
+    height: 80px;
+    left: 0;
+    top:0px;
+    padding-left: 7%; 
+    background: black;
+    line-height: 0;
+    position: fixed;
+    display: none;
+    z-index: 9999;
+}
+section.conrad div.logo
+{
     width: 50%;
     float: left;
     font-size: 30px;
@@ -42,14 +54,18 @@ section.conrad div.logo{
     padding: 0;
 }
 
-section.conrad  nav{
+section.conrad  nav
+{
     width: 50%;
     float: right;
 }
-section.conrad  nav ul li{
+
+section.conrad  nav ul li
+{
     display: inline-block;
     padding-top: 5px;
 }
+
 section.conrad  nav ul li a{
     color:white;
     text-decoration: none;
