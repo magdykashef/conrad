@@ -7,9 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#f50;
     font-family: candara;
-    height: 1500px;
 }
 ul,li {
     margin: 0px;
