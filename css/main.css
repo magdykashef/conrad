@@ -180,6 +180,8 @@ section.folio{
     background: url(../images/slide-7-fw.jpg);
     background-attachment: fixed;
     height: 500px;
+    background-size:cover;
+    background-repeat:no-repeat;
     text-align: center;
     line-height: 25px;
     color:white;
